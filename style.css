@@ -1,0 +1,154 @@
+﻿
+   body {
+         background: gray;/*фон*/
+         border-radius: 10px;/*закругление*/
+         margin-top: 0;/* отступ сверху */
+         font-family: Arial, Helvetica, sans-serif;/*шрифт*/
+         text-align: justify;/*выравнивание  текта по центру */
+         max-width: 1000px;/*максимальная ширена   */
+         margin-left: auto;/*вненший отступс лева   */
+         margin-right: auto;/*внешний отступ с права */
+
+   } 
+   img {
+        float:left;
+        position: relative; 
+   }
+   header {
+           background: white;
+           border-radius: 10px;
+           padding-top: 0;
+           margin-top:0;    
+   }
+   #Introduction {
+                  background: white;
+                  border-radius: 10px;
+                  padding: 5px;
+                  margin-top: -1em; 
+   }
+   #groups {
+            background: white;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: -1em;
+            line-height: 1;
+   }
+   #questions {
+               background: white;
+               border-radius: 10px;
+               padding: 5px;
+               margin-top: -1em;
+               line-height: 1;
+   }
+   article {
+            background: white;
+            border-radius: 10px;
+            padding: 5px;
+            margin-top: -1em;
+            line-height: 1;
+   }
+   aside {
+          background: darkgray; 
+          width: 250px; 
+          float: right; 
+          border-radius: 10px;
+          margin-right: 5px;
+          margin-left: 5px;
+          padding: 4px 4px;
+          font-size: 11pt;
+          font: Arial;
+   }
+   footer {
+           background: white;
+           border-radius: 10px;
+           text-align: center;
+           padding: 10px;
+   }
+   #top { 
+        margin-top: 0px;
+        padding-top: 1em;
+  }
+  nav ul li {
+             display: inline-block;
+             position: relative;
+  }
+  ul li dl  {
+             text-align: justify;
+             line-height: 1;
+  }
+  div ul li {
+             list-style-type: disc;
+  }
+  ul {
+      list-style: none; 
+      font-size: 10pt; 
+   }
+   /* настройка подменю */
+   li ul { 
+          display: none; 
+          border: 1px solid;
+          width: 60px;
+          position: absolute;
+          background-color: white; 
+          border-radius: 5px;
+          padding: 5px;
+   }
+   li a {
+         background-color: white; /* фон */
+         border-bottom: none; 
+   }
+   li:hover ul { 
+                display: block; /* подменю видно только при наведении мыши */
+   } 
+   p {
+      margin-top: 0; /* убираем пробелы между абзацами */
+      margin-bottom: 0; /* убираем пробелы между абзацами */
+   }
+   #CSS3, #JavaScript, #calculator {
+                                    background: white; /* фон */
+                                    border-radius: 10px; /* скругление углов */
+                                    padding: 5px; /* внутреннее отступы */
+                                    margin-top: -1em; /* убираем полосу между хедером и дивом */
+   }
+  #simpleCalculator table {
+                           margin: auto; /* выравнивание калькулятора по центру */
+                           display: table;/* Определяет, что элемент является блочной таблицей */
+  }
+   td {
+       text-align: center; /* Выравниваем текст по центру ячейки */
+   }
+   button {
+           background: #f0f0f0; /* Цвет фона кнопки */
+           width: 50px; /* Ширина кнопки калькулятора */
+           padding: 5px; /* Поля кнопки калькулятора*/
+           border: 1px solid #C0C0C0; /* Параметры рамки кнопки калькулятора */
+           border-radius: 2px; /* скругление углов */
+   }
+   #test button {
+                 width: 75px; /* Ширина блока */
+   }
+   #editWide {
+              width: 268px; /* Ширина поля ввода цыфр калькулятора */
+              height: 30px; /* высота поля ввода цыфр калькулятора */
+   }
+    .equally {
+              background: #f0f0f0; /* Цвет фона кнопки "="*/
+              height: 60px; /* высота кнопки "=" */
+   } 
+  .zero {
+         background: #f0f0f0; /* Цвет фона */
+         width: 100%; /* ширина кнопки "0" */
+         height: 100%; /* высота кнопки "0" */
+  }
+  #groups ul {
+              margin-top: 0;
+              font-size: 12pt; 
+  }
+  #groups ul li dl {
+                    margin-top: 0;
+                    font-size: 12pt; 
+  }
+   #groups ul li {
+                  margin-top: 0;
+                  margin-bottom: -1em;
+   }
